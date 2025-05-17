@@ -7,7 +7,7 @@ public class CarControl : MonoBehaviour
     //Звуки
     [SerializeField]
     private AudioSource IdleSource, MovementSource, BrakeSource, NitroSource;
-
+    //Тралалело тралала
     [SerializeField]
     private float _motor = 800, _steer = 50, _brake = 440, _motorCar, _motorNitro = 4800;
     // Колеса автомобиля
